@@ -1,18 +1,32 @@
-*{box-sizing: border-box;
+*{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;   
 }
 header{
     width: 100%;
+    min-width: 1200px;
+}
+.border {
+    border: 2px dotted black;
 }
 .flexContainer{
     display: flex;
     flex-direction: row;
+}
+.flxdirectionrowrev {
+    flex-direction: row-reverse;
+}
+.jtfspacebet {
     justify-content:space-between;
-    align-items:center;  
+}
+.alignitm {
+    align-items:center;
+}
+.jtfcenter {
+    justify-content: center;
 }
 .logo,.link,.login {
-    border: 1px dashed;
     height: 1.5em;
     width: calc(100% / 3);
 }
@@ -24,36 +38,52 @@ text-align: right;
 }
 .boxed {
     margin: 0 auto;
-    max-width: 1000px;
+    min-width: 1000px;
 
 }
 .lightblue {
     background-color: lightblue;
     min-height: 4em;
     padding-top: 17px;
+    min-width: 1000px;
 }
 .goldenrod {
     background-color: goldenrod;
     max-width:1920px;
     width:80%;
-    border:2px dashed;
+    min-width: 1000px;
     }
 .blue {
     background-color: blue;
     max-width:1920px;
     width:100%;
     min-height:500px;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items:center;
     }
 .pink {
     background-color: pink;
     min-height:400px;
     width: 60%;
-    max-width: 1000px;
-    border: 2px black dashed;
+    max-width:1920px;
+}
+.white {
+    min-height: 600px;
+    background-color: white;
+}
+.softblue {
+    min-height:500px;
+    background-color: #1e90ff;
+    width: 42%;
+    max-width: 1920px;
+}
+.softpink {
+    min-height: 500px;
+    background-color: #ffc0cb;
+    width:21%;
+    max-width: 1920px;
+}
+.gray {
+    background-color: #d3d3d3;
+    min-height: 600px;
 }
 
 
