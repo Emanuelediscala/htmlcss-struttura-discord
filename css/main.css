@@ -1,0 +1,59 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;   
+}
+header{
+    width: 100%;
+}
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;  
+}
+.logo,.link,.login {
+    border: 1px dashed;
+    height: 1.5em;
+    width: calc(100% / 3);
+}
+.link {
+    text-align: center;
+}
+.login {
+text-align: right;
+}
+.boxed {
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+.lightblue {
+    background-color: lightblue;
+    min-height: 4em;
+    padding-top: 17px;
+}
+.goldenrod {
+    background-color: goldenrod;
+    max-width:1920px;
+    width:80%;
+    border:2px dashed;
+    }
+.blue {
+    background-color: blue;
+    max-width:1920px;
+    width:100%;
+    min-height:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    }
+.pink {
+    background-color: pink;
+    min-height:400px;
+    width: 60%;
+    max-width: 1000px;
+    border: 2px black dashed;
+}
+
+
