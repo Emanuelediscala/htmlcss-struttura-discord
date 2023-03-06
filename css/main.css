@@ -1,7 +1,8 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  padding: 0;   
+  padding: 0;
+  font-family: arial;   
 }
 header{
     width: 100%;
@@ -14,18 +15,20 @@ header{
     display: flex;
     flex-direction: row;
 }
-.flxdirectionrowrev {
-    flex-direction: row-reverse;
-}
+
 .jtfspacebet {
     justify-content:space-between;
 }
 .alignitm {
-    align-items:center;
+    align-items:center; 
+}
+.alignitmend {
+    align-items:flex-end;
 }
 .jtfcenter {
     justify-content: center;
 }
+
 .logo,.link,.login {
     height: 1.5em;
     width: calc(100% / 3);
@@ -38,31 +41,29 @@ text-align: right;
 }
 .boxed {
     margin: 0 auto;
-    min-width: 1000px;
+    max-width: 1200px;
+    width: 100%;
 
 }
 .lightblue {
     background-color: lightblue;
     min-height: 4em;
     padding-top: 17px;
-    min-width: 1000px;
 }
 .goldenrod {
     background-color: goldenrod;
     max-width:1920px;
     width:80%;
-    min-width: 1000px;
     }
 .blue {
     background-color: blue;
-    max-width:1920px;
     width:100%;
     min-height:500px;
     }
 .pink {
     background-color: pink;
     min-height:400px;
-    width: 60%;
+    width: 47%;
     max-width:1920px;
 }
 .white {
@@ -72,18 +73,65 @@ text-align: right;
 .softblue {
     min-height:500px;
     background-color: #1e90ff;
-    width: 42%;
+    width: 70%;
     max-width: 1920px;
 }
 .softpink {
     min-height: 500px;
     background-color: #ffc0cb;
-    width:21%;
+    width:30%;
     max-width: 1920px;
 }
 .gray {
     background-color: #d3d3d3;
     min-height: 600px;
 }
-
+.green {
+    background-color:#228b22;
+    min-height: 700px;
+    width:63%;
+}
+.big {
+    min-height: 800px;
+}
+.black {
+    background-color: black;
+    min-height: 630px;
+}
+.lightorange {
+    background-color:#f08080;
+    min-height:580px;
+    width: 30%;
+    }
+.cyan {
+    background-color:#20b2aa;
+    min-height:580px;
+    width: 70%;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.block {
+    width: 25%;
+    border: 1px dotted white;
+}
+.spacer {
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+.smooth {
+    min-height:110px;
+}
+.lightgreen {
+    min-height:80px;
+    background-color:#7fffd4;
+    width: 100%;
+}
+#bottone {all:unset;}
+.bottonefooter {
+    border: 2px dotted black;
+}
+.logofooter, .bottonefooter {
+    background-color: #f08080;
+    padding: 2px;
+}
 
